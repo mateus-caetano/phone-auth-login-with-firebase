@@ -16,7 +16,7 @@ import {
 import * as firebase from "firebase";
 import { FirebaseRecaptchaVerifierModal } from "expo-firebase-recaptcha";
 
-import firebaseConfig from "../../../firebaseConfig";
+import firebaseConfig from "../../services/";
 import sendVerificationCode from "./functions/sendVerificationCode";
 import checkVerificationCode from "./functions/checkVerificationCode";
 import resendVerificationCode from "./functions/resendVerificationCode";
